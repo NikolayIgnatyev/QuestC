@@ -3,7 +3,7 @@
 #
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Case1 "Case1.cpp" "Case1.h" "Transports/Transport.cpp" "Transports/Bike.cpp")
+add_executable (Case1 "Case1.cpp" "Case1.h" "Transports/Transport.cpp" "Transports/Bike.cpp" "Transports/Scooter.cpp" "Transports/Auto.cpp" "TypesKPP.cpp" "Transports/Bus.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Case1 PROPERTY CXX_STANDARD 20)
